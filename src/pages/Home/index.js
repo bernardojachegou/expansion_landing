@@ -1,15 +1,21 @@
-import React from 'react';
-import { Link } from 'react-router-dom';
-import { Template, ContentWrapper } from './HomeElements';
-import thinking from '../../images/thinking.png';
+import React, { useState } from 'react';
 import Navbar from '../../components/Navbar';
+import Sidebar from '../../components/Sidebar';
 
-function Home() {
+const Home = () => {
+  const [isOpen, setIsOpen] = useState(false);
+
+  const toggle = () => {
+    setIsOpen(!isOpen);
+    console.log("oi")
+  }
+
   return (
     <>
-      <Navbar />
+      <Sidebar isOpen={isOpen} toggle={toggle} />
+      <Navbar toggle={toggle} />
     </>
-  )
-}
+  );
+};
 
 export default Home;
