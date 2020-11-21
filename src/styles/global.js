@@ -8,7 +8,7 @@ export const GlobalStyle = createGlobalStyle`
 }
 
 html {
-    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
 }
 `;
 

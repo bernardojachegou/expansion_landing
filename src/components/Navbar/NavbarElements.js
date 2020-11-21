@@ -77,11 +77,11 @@ export const NavItem = styled.li`
 `
 
 export const NavLinks = styled(LinkScroll)`
+  font-size: 1.5rem;
   color: #fff;
   display: flex;
   align-items: center;
   text-decoration: none;
-  font-weight: bold;
   padding: 0 1rem;
   height: 100%;
   cursor: pointer;
