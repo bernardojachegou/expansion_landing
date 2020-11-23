@@ -52,8 +52,7 @@ export const TextWrapper = styled.div`
 
 export const TopLine = styled.p`
   color: #2d669d;
-  font-size: 16px;
-  line-height: 16px;
+  font-size: 24px;
   font-weight: bold;
   letter-spacing: 1.4px;
   text-transform: uppercase;
@@ -73,9 +72,10 @@ export const Heading = styled.h1`
 `
 
 export const Subtitle = styled.p`
+  font-family: 'roboto';
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 30px;
+  font-size: 24px;
   line-height: 30px;
   letter-spacing: 2;
   color: #000;

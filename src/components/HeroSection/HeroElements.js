@@ -1,12 +1,13 @@
 import styled from 'styled-components';
 
 export const HeroContainer = styled.div`
+  margin: 0 auto;
   background-color: '#fff';
   display: flex;
-  justify-content: center;
   align-items: center;
-  padding: 0 30px;
+  justify-content: center;
   height: 860px;
+  width: 1100px;
 `
 
 export const HeroBg = styled.div`
@@ -20,7 +21,6 @@ export const ImageBg = styled.img`
 `
 
 export const HeroContent = styled.div`
-  max-width: 1200px;
   padding: 8px 24px;
   display: flex;
   flex-direction: column;
@@ -31,6 +31,7 @@ export const HeroH1 = styled.h1`
   color: black;
   font-size: 48px;
   text-align: center;
+  width: 450px;
 
   @media screen and (max-width: 768px) {
     font-size: 40px;

@@ -16,7 +16,7 @@ function HeroSection() {
         </HeroP>
         <HeroBtnWrapper>
           <Button
-            to='see'
+            to='first-section'
             smooth={true}
             duration={500}
             spy={true}

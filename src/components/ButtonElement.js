@@ -7,7 +7,7 @@ export const Button = styled(Link)`
   white-space: nowrap;
   padding: ${({ big }) => (big ? '14px 48px' : '12px 30px')};
   color: white;
-  font-size: ${({ fontBig }) => (fontBig ? '24px' : '18px')};
+  font-size: ${({ fontBig }) => (fontBig ? '32px' : '24px')};
   outline: none;
   border: none;
   cursor: pointer;
