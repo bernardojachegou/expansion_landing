@@ -51,7 +51,7 @@ export const TextWrapper = styled.div`
 `
 
 export const TopLine = styled.p`
-  color: red;
+  color: #2d669d;
   font-size: 16px;
   line-height: 16px;
   font-weight: bold;
@@ -65,7 +65,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: bold;
-  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
+  color: ${({ lightText }) => (lightText ? '#000' : '#010606')};
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -75,9 +75,10 @@ export const Heading = styled.h1`
 export const Subtitle = styled.p`
   max-width: 440px;
   margin-bottom: 35px;
-  font-size: 18px;
-  line-height: 24px;
-  color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
+  font-size: 30px;
+  line-height: 30px;
+  letter-spacing: 2;
+  color: ${({ darkText }) => (darkText ? '#000' : '#000')};
 `
 
 export const BtnWrap = styled.div`

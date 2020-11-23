@@ -15,7 +15,14 @@ function HeroSection() {
           Learn about it right now!
         </HeroP>
         <HeroBtnWrapper>
-          <Button to="read">Start</Button>
+          <Button
+            to='see'
+            smooth={true}
+            duration={500}
+            spy={true}
+            exact="true"
+            offset={-80}
+          >Start</Button>
         </HeroBtnWrapper>
       </HeroContent>
     </HeroContainer>

@@ -5,7 +5,7 @@ export const homeObjOne = {
   darkText: false,
   topLine: 'Improve your professional Life',
   headLine: 'Clear Communication',
-  description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit.Eius minus consequatur aliquid sit ipsa autem eveniet eos rerum, neque sint odio incidunt perspiciatis obcaecati eaque cum fugit eum deserunt beatae.',
+  description: 'All of us communicate every day. The better we communicate, the more credibility we’ll have with our clients, our boss, and our colleagues.',
   buttonLabel: 'Keep going',
   imgStart: false,
   dark: true,

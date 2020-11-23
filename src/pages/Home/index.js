@@ -10,7 +10,6 @@ const Home = () => {
 
   const toggle = () => {
     setIsOpen(!isOpen);
-    console.log("oi")
   }
 
   return (
