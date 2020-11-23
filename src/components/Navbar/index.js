@@ -9,22 +9,52 @@ const Navbar = ({ toggle }) => {
       <Nav>
         <NavbarContainer>
 
-          <NavLogo to="/"><GiOwl size={40} /></NavLogo>
+          <NavLogo
+            to='home'
+            smooth={true}
+            duration={500}
+            exact="true"
+            offset={-80}
+          ><GiOwl size={40} /></NavLogo>
           <MobileIcon onClick={toggle}>
             <FaBars />
           </MobileIcon>
           <NavMenu>
             <NavItem>
-              <NavLinks to='first-section'>Why?</NavLinks>
+              <NavLinks
+                to='first-section'
+                smooth={true}
+                duration={500}
+                exact="true"
+                offset={-80}
+              >Why?</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='second-section'>How?</NavLinks>
+              <NavLinks
+                to='second-section'
+                smooth={true}
+                duration={500}
+                exact="true"
+                offset={-80}
+              >How?</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='third-section'>When?</NavLinks>
+              <NavLinks
+                to='third-section'
+                smooth={true}
+                duration={500}
+                exact="true"
+                offset={-80}
+              >When?</NavLinks>
             </NavItem>
             <NavItem>
-              <NavLinks to='contact'>Contact</NavLinks>
+              <NavLinks
+                to='contact'
+                smooth={true}
+                duration={500}
+                exact="true"
+                offset={-80}
+              >Contact</NavLinks>
             </NavItem>
           </NavMenu>
         </NavbarContainer>

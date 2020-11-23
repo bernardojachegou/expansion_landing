@@ -72,7 +72,7 @@ export const Heading = styled.h1`
 `
 
 export const Subtitle = styled.p`
-  font-family: 'roboto';
+  font-family: 'Roboto';
   max-width: 440px;
   margin-bottom: 35px;
   font-size: 24px;
