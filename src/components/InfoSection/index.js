@@ -1,7 +1,6 @@
 import React from 'react';
 import { Button } from '../ButtonElement';
 import { BtnWrap, Heading, TextWrapper, TopLine, Subtitle, InfoWrapper, InfoRow, InfoContainer, Column1, Column2, ImgWrap, Img } from './infoElements';
-import svg1 from '../../images/svg-1.svg'
 
 const InfoSection = ({ id, imgStart, headLine, description, buttonLabel, alt, buttonDirection, lightBgColor, img }) => {
   return (
@@ -29,7 +28,7 @@ const InfoSection = ({ id, imgStart, headLine, description, buttonLabel, alt, bu
             </Column1>
             <Column2>
               <ImgWrap>
-                <Img src={svg1} alt={alt} />
+                <Img src={img} alt={alt} />
               </ImgWrap>
             </Column2>
           </InfoRow>
