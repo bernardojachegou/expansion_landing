@@ -15,7 +15,7 @@ export const HeroBg = styled.div`
 `
 
 export const ImageBg = styled.img`
-  @media screen and (max-width: 768px) {
+  @media screen and (max-width: 990px) {
     display: none;
   }
 `
@@ -35,9 +35,11 @@ export const HeroH1 = styled.h1`
 
   @media screen and (max-width: 768px) {
     font-size: 40px;
+    max-width: 400px;
   }
 
   @media screen and (max-width: 480px) {
+    max-width: 300px;
     font-size: 32px;
   }
 `
