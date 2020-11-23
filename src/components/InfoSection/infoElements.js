@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
   color: #fff;
-  background-color: blue;
+  background-color: #d2e8ff;
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -25,23 +25,23 @@ export const InfoRow = styled.div`
   display: grid;
   grid-auto-columns: minmax(auto, 1fr);
   align-items: center;
-  grid-template-areas: 'col1 col2';
+  grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
   @media screen and (max-width: 768px) {
-    grid-template-areas: 'col1' 'col2';
+    grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2' 'col1'` : `'col1 col1' 'col2 col2'`)};
   }
 `
 
 export const Column1 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
-  grid-area: 'col1';
+  grid-area: col1;
 `
 
 export const Column2 = styled.div`
   margin-bottom: 15px;
   padding: 0 15px;
-  grid-area: 'col2';
+  grid-area: col2;
 `
 
 export const TextWrapper = styled.div`
@@ -65,7 +65,7 @@ export const Heading = styled.h1`
   font-size: 48px;
   line-height: 1.1;
   font-weight: bold;
-  color: green;
+  color: ${({ lightText }) => (lightText ? '#f7f8fa' : '#010606')};
 
   @media screen and (max-width: 480px) {
     font-size: 32px;
@@ -77,7 +77,7 @@ export const Subtitle = styled.p`
   margin-bottom: 35px;
   font-size: 18px;
   line-height: 24px;
-  color: pink;
+  color: ${({ darkText }) => (darkText ? '#010606' : '#fff')};
 `
 
 export const BtnWrap = styled.div`
