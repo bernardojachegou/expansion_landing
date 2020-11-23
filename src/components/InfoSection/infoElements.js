@@ -2,7 +2,7 @@ import styled from 'styled-components';
 
 export const InfoContainer = styled.div`
   color: #fff;
-  background-color: #d2e8ff;
+  background-color: ${({ lightBgColor }) => (lightBgColor ? '#d2e8ff' : '#a4d2ff')};
 
   @media screen and (max-width: 768px) {
     padding: 100px 0;
@@ -28,7 +28,7 @@ export const InfoRow = styled.div`
   grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2 col1'` : `'col1 col2'`)};
 
   @media screen and (max-width: 768px) {
-    grid-template-areas: ${({ imgStart }) => (imgStart ? `'col2' 'col1'` : `'col1 col1' 'col2 col2'`)};
+    grid-template-areas: 'col1' 'col2';
   }
 `
 

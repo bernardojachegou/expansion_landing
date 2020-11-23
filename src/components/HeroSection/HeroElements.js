@@ -7,7 +7,7 @@ export const HeroContainer = styled.div`
   align-items: center;
   justify-content: center;
   height: 860px;
-  width: 1100px;
+  max-width: 1100px;
 `
 
 export const HeroBg = styled.div`
