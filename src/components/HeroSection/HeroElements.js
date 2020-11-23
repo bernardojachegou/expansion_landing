@@ -11,7 +11,6 @@ export const HeroContainer = styled.div`
 `
 
 export const HeroBg = styled.div`
-  padding:  0 16px;
 `
 
 export const ImageBg = styled.img`
@@ -25,6 +24,14 @@ export const HeroContent = styled.div`
   display: flex;
   flex-direction: column;
   align-items: center;
+
+  @media screen and (max-width: 420px) {
+    padding: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    padding: 0;
+  }
 `
 
 export const HeroH1 = styled.h1`

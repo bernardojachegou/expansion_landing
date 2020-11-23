@@ -28,6 +28,7 @@ export const NavbarContainer = styled.div`
   z-index: 1;
   width: 100%;
   max-width: 1100px;
+  padding: 0 16px;
 `
 
 export const NavLogo = styled(LinkScroll)`
