@@ -26,6 +26,12 @@ Este versão do projeto foi criada utilizando React.
 
 ## :computer:    Rodando o projeto:
 
+### Acesso ao projeto
+
+```bash
+https://xwclearcommunication.vercel.app/
+```
+
 ### Instalação do Front-end
 
 ```bash
