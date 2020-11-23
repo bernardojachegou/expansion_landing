@@ -3,7 +3,7 @@ import { Button } from '../ButtonElement';
 import { BtnWrap, Heading, TextWrapper, TopLine, Subtitle, InfoWrapper, InfoRow, InfoContainer, Column1, Column2, ImgWrap, Img } from './infoElements';
 import svg1 from '../../images/svg-1.svg'
 
-const InfoSection = ({ id, imgStart, topLine, lightText, headLine, darkText, description, buttonLabel, alt, primary, dark, dark2 }) => {
+const InfoSection = ({ id, imgStart, topLine, headLine, description, buttonLabel, alt, primary, dark, dark2 }) => {
   return (
     <>
       <InfoContainer id={id}>
@@ -12,8 +12,8 @@ const InfoSection = ({ id, imgStart, topLine, lightText, headLine, darkText, des
             <Column1>
               <TextWrapper>
                 <TopLine>{topLine}</TopLine>
-                <Heading lightText={lightText}>{headLine}</Heading>
-                <Subtitle darkText={darkText}>{description}</Subtitle>
+                <Heading>{headLine}</Heading>
+                <Subtitle>{description}</Subtitle>
                 <BtnWrap>
                   <Button
                     to='home'
