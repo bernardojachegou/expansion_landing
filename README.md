@@ -1,10 +1,10 @@
 <h1 align="center">
-  <img alt="BeTheHero" title="Bethehero" src="https://imgur.com/ZndWws9.png" />
-</h1>
-
-<h3 align="center">
   :rocket: Projeto Soft Skills - Clear Communication
-</h3>
+</h2>
+
+<h2 align="center">
+  <img alt="BeTheHero" title="Bethehero" src="https://imgur.com/ZndWws9.png" />
+</h2>
 
 ## :book:    Sobre o projeto
 <p>
